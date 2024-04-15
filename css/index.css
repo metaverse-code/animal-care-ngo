@@ -1,0 +1,868 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: TwSenMT;
+    src: url(../fonts/tw-cen-mt.ttf);
+}
+.navbarReuse .navbarCustom{
+    top: 40% !important;
+}
+.mainBanner {
+    /* background-image: url('../Images/home/CowRescue.jpg'); */
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    position: relative;
+    background-position: center -150px;
+}
+
+.mainBanner .messageContainer {
+    color: #fff;
+    font-family: "Inter", sans-serif;
+    text-transform: capitalize;
+    position: absolute;
+    width: 50%;
+    text-align: center;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-shadow: 0px 0px 5px rgba(0, 0, 0, 0.562);
+    display: none;
+}
+
+/* .mainBanner .logoContainer {
+    background-image: url('../Images/home/Logo-woutShad.png');
+    background-size: cover;
+    width: 200px;
+    height: 120px;
+    position: absolute;
+    left: 5%;
+    top: 5%;
+    z-index: 1;
+} */
+
+.mainBanner .messageContainer h1 {
+    font-size: 35px;
+    font-weight: 600;
+}
+
+.mainBanner .messageContainer h1>span {
+    color: #15BECC;
+}
+
+.mainBanner .messageContainer p {
+    font-size: 25px;
+    padding-top: 10px;
+}
+
+.mainBanner .navbarCustom {
+    position: absolute;
+    right: 4%;
+    width: 75%;
+    top: 6%;
+    z-index: 10;
+}
+
+.mainBanner .navbarCustom ul {
+    display: flex;
+    column-gap: 2%;
+    justify-content: flex-end;
+}
+
+.mainBanner .navbarCustom li {
+    list-style-type: none;
+    font-family: "Inter";
+}
+
+/* .mainBanner .navbarCustom li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 500;
+    text-shadow: 2px 2px 5px #0d6efd;
+} */
+
+.mainBanner .navbarCustom li a.active {
+    color: #327379;
+}
+
+.mainBanner .navbarCustom li a.donateBtn {
+    background-color: #398086;
+    color: #fff;
+    border-radius: 40px;
+    padding: 10px 35px;
+    margin-left: 50px;
+    transition: 0.3s all ease-in-out;
+}
+
+.mainBanner .navbarCustom li a.donateBtn:hover {
+    background-color: #327379;
+}
+
+.mobile {
+    display: none;
+}
+
+.marginLR {
+    margin: 6%;
+}
+
+.info1 {
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0 5%;
+}
+
+.info1 h1 {
+    font-size: 40px;
+    color: #1f1f1f;
+}
+
+.info1>p {
+    font-family: inter;
+    font-family: poppins;
+    margin: 20px 0;
+    font-weight: 400;
+    font-size: 20px;
+    color: #1f1f1f;
+}
+
+.marginLR .carousel1 {
+    margin: 0 18%;
+}
+
+.carousel-indicators button {
+    width: 10px !important;
+    height: 10px !important;
+    border-radius: 50% !important;
+    background-color: #70B3B9 !important;
+}
+
+.carousel1 .carousel-caption h5 {
+    font-family: TwSenMT;
+    font-size: 25px;
+    text-shadow: 0px 0px 5px rgba(0, 0, 0, 0.562);
+}
+
+.carousel1 .carousel-caption p {
+    font-family: TwSenMT;
+    font-size: 19px;
+    line-height: 20px;
+    text-shadow: 0px 0px 5px rgba(0, 0, 0, 0.589);
+}
+
+.countBanner {
+    height: 370px;
+    display: flex;
+    align-items: center;
+    background-image: url('../Images/home/cat_banner.png');
+    background-size: cover;
+}
+
+.countBanner .innerContainer {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    padding: 0 18%;
+    width: 100%;
+}
+
+.item .imageCircle {
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 120px;
+    height: 120px;
+}
+
+.countItem1 .imageCircle1 {
+    background-image: url('../Images/home/rescue_circ.png');
+}
+
+.countItem2 .imageCircle2 {
+    background-image: url('../Images/home/treated_circ.png');
+}
+
+.countItem3 .imageCircle3 {
+    background-image: url('../Images/home/activeV_circle.png');
+}
+
+.countBanner .animationCount {
+    margin-top: 20px;
+    font-size: 40px;
+    font-weight: 500;
+    font-family: inter;
+    color: #fff;
+}
+
+.countBanner .text {
+    font-size: 20px;
+    color: #ffffff;
+    font-family: inter;
+    margin-top: -10px;
+}
+
+.innerContainer .item {
+    display: grid;
+    place-items: center;
+}
+
+.ourStory .innerContainer {
+    display: flex;
+    justify-content: space-between;
+    background: #BADFE7;
+    padding: 1% 12%;
+    align-items: center;
+}
+
+.ourStory .photoCont {
+    background-image: url('../Images/home/OurStory.png');
+    height: 350px;
+    width: 50%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.ourStory .textCont {
+    text-align: center;
+    width: 50%;
+}
+
+.ourStory p.storyTitle {
+    font-size: 40px;
+    font-family: 'TwSenMT';
+}
+
+.ourStory p.paaragraph {
+    font-size: 18px;
+    font-family: raleway;
+    font-weight: 500;
+}
+
+.VisionMission {
+    margin: 6% 8%;
+}
+
+.VisionMission .title {
+    font-size: 40px;
+    font-family: 'TwSenMT';
+}
+
+.VisionMission .paragraph {
+    font-size: 20px;
+    font-family: 'TwSenMT';
+    line-height: 22px;
+}
+
+.VisionMission .Vision,
+.VisionMission .Mission {
+    display: flex;
+    align-items: center;
+}
+
+.VisionMission .Mission {
+    margin-top: -80px;
+}
+
+.VisionMission .left,
+.VisionMission .right {
+    text-align: center;
+    border: 30px solid #fff;
+}
+
+.VisionMission .Vision .left,
+.VisionMission .Mission .right {
+    width: 42%;
+}
+
+.VisionMission .Vision .right {
+    background-image: url('../Images/home/vision.png');
+    background-size: cover;
+    height: 60vh;
+    width: 58%;
+    background-position: center;
+}
+
+.VisionMission .Mission .left {
+    background-image: url('../Images/home/mission.png');
+    background-size: cover;
+    height: 60vh;
+    width: 58%;
+    background-position: center;
+}
+
+.VisionMission .Vision .paragraph {
+    text-align: right;
+}
+
+.VisionMission .Mission .paragraph {
+    text-align: left;
+}
+
+.WCAnimalCare p.title {
+    font-size: 30px;
+    font-family: 'Inter';
+    text-align: center;
+    font-weight: 500;
+    color: #4A4A4A;
+    margin-bottom: 40px;
+}
+
+.WCAnimalCare .flexContainer {
+    display: flex;
+    align-items: center;
+    gap: 6%;
+    padding: 0 8%;
+}
+
+.WCAnimalCare .leftText {
+    width: 50%;
+    font-family: 'TwSenMT';
+    font-size: 22px;
+    line-height: 25px;
+}
+
+.WCAnimalCare .Image {
+    background-image: url('../Images/home/why-choose-aci.png');
+    height: 450px;
+    background-size: contain;
+    width: 50%;
+    background-repeat: no-repeat;
+}
+
+.currCamp,
+.Comprehensive {
+    text-align: center;
+}
+
+.currCamp p.title {
+    font-family: inter;
+    font-size: 30px;
+    font-weight: 500;
+    margin: 0;
+}
+
+.currCamp p.title span {
+    font-style: italic;
+    color: #3258B0;
+    font-weight: 700;
+}
+
+.currCamp p.nextTitle {
+    font-family: 'TwSenMT';
+    font-size: 25px;
+}
+
+.donateBtn {
+    text-decoration: none;
+    background: #398086;
+    color: #fff;
+    padding: 7px 18px;
+    font-family: inter;
+    transition: 0.3s all ease-in-out;
+}
+
+.donateBtn:hover {
+    color: #fff;
+    background-color: #306b70;
+}
+
+.currCamp {
+    margin: 0 3% 5%;
+}
+
+.WCAnimalCare.marginLR {
+    margin: 3% 6% 5% 6%;
+}
+
+
+.Comprehensive p.title {
+    font-size: 25px;
+    font-family: 'Inter';
+    font-weight: 500;
+}
+
+.Comprehensive p.nextTitle {
+    font-size: 20px;
+    font-style: italic;
+    line-height: 22px;
+}
+
+.Comprehensive {
+    padding: 3% 15%;
+    background-color: #BADFE7;
+    margin-bottom: 3%;
+    background-image: url('../Images/home/bg_cat.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: 83% center;
+}
+
+.waterBowl {
+    display: flex;
+    align-items: center;
+    padding: 3% 15%;
+    column-gap: 5%;
+}
+
+.waterBowl .leftText,
+.waterBowl .imageContainer {
+    width: 50%;
+}
+
+.waterBowl .imageContainer {
+    background-image: url('../Images/home/water-bowl-birds.png');
+    height: 400px;
+    background-size: cover;
+}
+
+.waterBowl p.title {
+    font-size: 24px;
+    font-family: 'Inter';
+    text-align: center;
+    font-weight: 600;
+}
+
+.waterBowl p.descr {
+    font-family: 'Raleway';
+    font-weight: 500;
+}
+
+.Testimonials {
+    text-align: center;
+    margin: 5% 0;
+}
+
+.Testimonials p.title {
+    font-family: 'TwSenMT';
+    font-size: 35px;
+    margin: 0;
+}
+
+.Testimonials p.subtext {
+    font-family: 'TwSenMT';
+    font-size: 20px;
+    margin-top: -8px;
+}
+
+
+.Testimonials .line {
+    width: 6%;
+    height: 3px;
+    background: #398086;
+    margin: 0 auto;
+}
+
+.Testimonials .innerContainer {
+    padding: 0 22%;
+}
+
+.Testimonials .carousel-control-prev {
+    left: -84px;
+    background: #398086;
+    height: 35px;
+    width: 35px;
+    top: 47%;
+    border-radius: 50%;
+    opacity: 1;
+    padding: 8px;
+}
+
+
+.Testimonials .carousel-control-next {
+    right: -67px;
+    background: #398086;
+    height: 35px;
+    width: 35px;
+    top: 47%;
+    border-radius: 50%;
+    opacity: 1;
+    padding: 8px;
+}
+
+.futurePlans {
+    text-align: center;
+    margin-top: 6%;
+    padding: 0 22%;
+}
+
+.futurePlans .title {
+    font-family: inter;
+    font-weight: 600;
+    font-size: 25px;
+}
+
+.futurePlans p.descr {
+    font-family: raleway;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+}
+
+.ourStory.joinMovement {
+    margin-top: 8%;
+}
+
+.ourStory.joinMovement .innerContainer {
+    flex-direction: row-reverse;
+}
+
+.ourStory.joinMovement .innerContainer p.storyTitle {
+    font-size: 30px;
+    font-family: 'Inter';
+    font-weight: 600;
+}
+
+.ourStory.joinMovement .innerContainer .photoCont {
+    background-image: url('../Images/home/JoinMoment.png');
+}
+
+.item.address.home p {
+    padding: 0;
+}
+
+ul.siteMapUL.Home li {
+    padding: 0;
+}
+
+.footer .contactForm div {
+    padding: 7px 6px !important;
+}
+
+.mobileMenuContent {
+    display: none;
+}
+
+/* Media Query for Mobile Devices */
+@media (max-width: 480px) {
+    .mainBanner .logBgMobile.mobile .fa-solid.fa-bars {
+        position: absolute;
+        left: 9%;
+        top: 25%;
+        font-size: 25px;
+        color: #398086;
+        z-index: 9;
+    }
+
+    .mainBanner {
+        height: 100vh;
+        background-position: center;
+    }
+
+    .mainBanner .logoContainer {
+        width: 155px;
+        background-size: contain;
+        background-repeat: no-repeat;
+        top: 30px;
+        z-index: 9;
+    }
+
+    .mainBanner .navbarCustom {
+        display: none;
+    }
+
+    .mainBanner .messageContainer {
+        top: 50%;
+        width: 95%;
+    }
+
+    .mainBanner .messageContainer h1 {
+        font-size: 36px;
+        font-weight: 500;
+    }
+
+    .mainBanner .messageContainer p {
+        font-size: 20px;
+    }
+
+    .donateBtn.mobile {
+        display: block;
+    }
+
+    a.donateBtn.mobile {
+        background-color: #398086;
+        color: #fff;
+        border-radius: 40px;
+        padding: 10px 35px;
+        width: max-content;
+        text-decoration: none;
+        position: absolute;
+        right: 5%;
+        top: 6%;
+        font-family: inter;
+        font-size: 14px;
+        transition: 0.2s all ease-in-out;
+    }
+
+    .carousel-inner {
+        border-radius: 8px !important;
+    }
+
+    .marginLR {
+        margin: 7% 3%;
+    }
+
+    .info1>p {
+        font-size: 16px;
+    }
+
+    .marginLR .info1 {
+        margin: 0 3%;
+    }
+
+    .marginLR .info1 h1 {
+        font-size: 30px;
+        font-weight: 600;
+        color: #1f1f1f;
+    }
+
+    .marginLR .carousel1 {
+        margin: 0 3%;
+    }
+
+    .countBanner {
+        height: max-content;
+        padding: 7% 0;
+        background-position: center;
+    }
+
+    .countBanner .innerContainer {
+        flex-direction: column;
+    }
+
+    .innerContainer .item {
+        margin-bottom: 44px;
+    }
+
+    .countBanner .animationCount {
+        font-size: 28px;
+        margin-top: 7px;
+    }
+
+    .countBanner .text {
+        margin-top: -3px;
+        font-size: 16px;
+    }
+
+    .item .imageCircle {
+        width: 100px;
+        height: 100px;
+    }
+
+    .ourStory .innerContainer {
+        padding: 2% 0;
+        flex-direction: column;
+    }
+
+    .ourStory .textCont,
+    .ourStory .photoCont {
+        width: 90%;
+    }
+
+    .ourStory p.storyTitle {
+        font-size: 30px;
+    }
+
+    .ourStory p.paaragraph {
+        font-size: 16px;
+    }
+
+    .VisionMission .Vision {
+        flex-direction: column-reverse;
+        margin-bottom: 30px;
+    }
+
+    .VisionMission .Mission {
+        flex-direction: column;
+    }
+
+    .VisionMission .title {
+        margin: 0;
+        font-size: 30px;
+    }
+
+    .VisionMission .paragraph {
+        font-size: 16px;
+        line-height: 18px;
+    }
+
+    .VisionMission {
+        margin: 10% 4%;
+    }
+
+    .VisionMission .Vision .left,
+    .VisionMission .Mission .right,
+    .VisionMission .Vision .right,
+    .VisionMission .Mission .left {
+        width: 100%;
+    }
+
+    .VisionMission .left,
+    .VisionMission .right {
+        border: none;
+    }
+
+    .VisionMission .Mission {
+        margin-top: 20px;
+    }
+
+    .VisionMission .Vision .paragraph {
+        text-align: center;
+    }
+
+    .VisionMission .Mission .paragraph {
+        text-align: center;
+    }
+
+    .VisionMission .Vision .right,
+    .VisionMission .Mission .left {
+        height: 30vh;
+    }
+
+    .WCAnimalCare p.title {
+        font-size: 22px;
+        margin-bottom: 20px;
+    }
+
+    .WCAnimalCare .flexContainer {
+        flex-direction: column-reverse;
+        padding: 0 5%;
+    }
+
+    .WCAnimalCare .Image {
+        width: 100%;
+        height: 269px;
+    }
+
+    .WCAnimalCare .leftText {
+        width: 100%;
+        font-size: 18px;
+        line-height: 20px;
+        text-align: center;
+    }
+
+    .currCamp p.title {
+        font-size: 20px;
+    }
+
+    .currCamp p.nextTitle {
+        font-size: 18px;
+        line-height: 20px;
+    }
+
+    .currCamp {
+        margin: 15% 5%;
+    }
+
+    .Comprehensive p.title {
+        font-size: 22px;
+    }
+
+    .Comprehensive p.nextTitle {
+        font-size: 16px;
+    }
+
+    .waterBowl p.title {
+        font-size: 20px;
+    }
+
+    .waterBowl {
+        flex-direction: column-reverse;
+        padding: 3%;
+        row-gap: 3%;
+    }
+
+    .waterBowl .leftText,
+    .waterBowl .imageContainer {
+        width: 90%;
+        margin-bottom: 15px;
+    }
+
+    .waterBowl p.descr {
+        text-align: center;
+    }
+
+    .Testimonials p.title {
+        font-size: 25px;
+    }
+
+    .Testimonials p.subtext {
+        font-size: 16px;
+        margin-bottom: 0;
+    }
+
+    .Testimonials .innerContainer {
+        padding: 0 4%;
+    }
+
+    .Testimonials .carousel-control-next,
+    .Testimonials .carousel-control-prev {
+        display: none;
+    }
+
+    .futurePlans {
+        padding: 3%;
+        margin-top: 10%;
+    }
+
+    .futurePlans .title {
+        font-size: 20px;
+    }
+
+    .futurePlans p.descr {
+        font-size: 16px;
+    }
+
+    .ourStory.joinMovement .innerContainer {
+        flex-direction: column;
+    }
+
+    .mainBanner {
+        background-image: url('../Images/home/CowRescueMobile.jpg');
+        position: relative;
+    }
+
+    /* .mainBanner .logBgMobile.mobile {
+        background-image: url('../Images/home/logBck.png');
+        background-size: contain;
+        background-repeat: no-repeat;
+        width: 100%;
+        position: fixed;
+        height: 45px;
+        display: block;
+    } */
+
+    .navbarReuse {
+        height: 155px !important;
+    }
+
+    #bindDrpdowndata ul {
+        left: 38% !important;
+    }
+
+    #bindDrpdowndata ul li {
+        margin: 0;
+        padding: 2px 5px !important;
+    }
+
+    /* div#carouselExampleIndicators1{
+        display: none;
+    } */
+}
+
+/* Media Query for low resolution  Tablets, Ipads */
+@media (min-width: 481px) and (max-width: 767px) {
+}
+
+/* Media Query for Tablets Ipads portrait mode */
+@media (min-width: 768px) and (max-width: 1024px) {
+}
+
+/* Media Query for Laptops and Desktops */
+@media (min-width: 1025px) and (max-width: 1280px) {}
+
+/* Media Query for Large screens */
+@media (min-width: 1281px) {}

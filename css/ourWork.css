@@ -1,0 +1,220 @@
+*{
+    margin: 0;padding: 0;box-sizing: border-box;
+}
+
+@font-face {
+    font-family: TwSenMT;
+    src: url(../fonts/tw-cen-mt.ttf);
+}
+
+.weInvite {
+    padding: 3% 15%;
+    text-align: center;
+    font-family: raleway;
+    font-size: 18px;
+}
+
+p.title {
+    text-align: center;
+    font-size: 30px;
+    font-family: TwSenMT;
+}
+
+div.subTextCont{
+    padding: 1% 10%;
+    padding-bottom: 2%;
+    font-weight: 500;
+    font-family: raleway;
+}
+
+.subTextCont p {
+    margin: 2% 0;
+    font-size: 18px;
+}
+
+.subParagraph span.Strong{
+    font-weight: 700;
+}
+
+.donateBtn {
+    text-decoration: none;
+    background: #398086;
+    color: #fff;
+    padding: 7px 18px;
+    font-family: inter;
+    transition: 0.3s all ease-in-out;
+}
+
+.alignDonate{
+    text-align: center;
+    margin-bottom: 5%;
+}
+
+.imgCollage {
+    width: 70%;
+    margin-top: 2%;
+    margin-bottom: 5%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.imgCollage .row1,
+.imgCollage .row2{
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+    margin-bottom: 10px;    
+}
+
+.imgCollage .row2 .left{
+    height: 55vh;
+    width: 40%;
+}
+.imgCollage .row2 .right{
+    height: 55vh;
+    width: 60%;
+}
+
+.imgCollage .row1 .left{
+    width: 40%;
+    height: 40vh;
+}
+.imgCollage .row1 .right{
+    width: 60%;
+    height: 40vh;
+}
+
+.row2 .right {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+}
+
+.imgCollage .row1 .left{
+    background-image: url('../Images/our_work/1.png');
+    background-size: cover;
+    background-position: center -23px;
+}
+
+.imgCollage .row1 .right{
+    background-image: url('../Images/our_work/2.png');
+    background-size: cover;
+    background-position: center -35px;
+}
+
+.imgCollage .row2 .left{
+    background-image: url('../Images/our_work/3.png');
+    background-size: cover;
+}
+
+.imgCollage .row2 .right .gridItems:first-child{
+    background-image: url('../Images/our_work/4.png');
+    background-size: cover;
+    background-position: center -70px;
+}
+
+.imgCollage .row2 .right .gridItems:nth-child(2){
+    background-image: url('../Images/our_work/5.png');
+    background-size: cover;
+}
+
+.imgCollage .row2 .right .gridItems:nth-child(3){
+    background-image: url('../Images/our_work/6.png');
+    background-size: cover;
+}
+
+.imgCollage .row2 .right .gridItems:nth-child(4){
+    background-image: url('../Images/our_work/7.png');
+    background-size: cover;
+}
+
+.loadMore {
+    text-align: center;
+    margin: 5% 0 0 5%;
+}
+
+/* Media Query for Mobile Devices */
+@media (max-width: 480px) {
+    .imgCollage{
+        width: 90%;
+    }
+
+    .imgCollage .row1, .imgCollage .row2{
+        flex-direction: column;
+    }
+
+    .imgCollage .row1 .left,
+    .imgCollage .row1 .right,
+    .imgCollage .row2 .left{
+        width: 100%;
+        height: 300px;
+        margin-bottom: 10px;
+    }
+
+    .imgCollage .row2 .right{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: auto;
+    }
+
+    .imgCollage .row2 .right .gridItems{
+        height: 300px;
+    }
+
+    .imgCollage .row1, 
+    .imgCollage .row2{
+        margin-bottom: 0;
+    }
+
+    .imgCollage .row1 .left,
+    .imgCollage .row1 .right {
+        background-position: center;
+    }
+
+    .imgCollage .row2 .right .gridItems:first-child{
+        background-position: center;
+    }
+
+    .weInvite{
+        padding: 3% 5%;
+        font-size: 16px;
+    }
+
+    p.title{
+        margin: 10% auto;
+        margin-bottom: 0;
+    }
+
+    .subTextCont p{
+        font-size: 16px;
+    }
+
+    .alignDonate{
+        margin-bottom: 10%;
+    }
+}
+ 
+/* Media Query for low resolution  Tablets, Ipads */
+@media (min-width: 481px) and (max-width: 767px) {
+    body {
+    }
+}
+ 
+/* Media Query for Tablets Ipads portrait mode */
+@media (min-width: 768px) and (max-width: 1024px){
+    body {
+    }
+}
+ 
+/* Media Query for Laptops and Desktops */
+@media (min-width: 1025px) and (max-width: 1280px){
+    body {
+    }
+}
+ 
+/* Media Query for Large screens */
+@media (min-width: 1281px) {
+    body {
+    }
+}

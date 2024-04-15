@@ -1,0 +1,157 @@
+*{
+    margin: 0;padding: 0;box-sizing: border-box;
+}
+
+.bePartText .donateBtn {
+    text-decoration: none;
+    background: #398086;
+    color: #fff;
+    padding: 7px 18px;
+    font-family: inter;
+    transition: 0.3s all ease-in-out;
+    display: block;
+    width: max-content;
+    margin: 35px auto;
+    border-radius: 30px;
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.thanksMsg {
+    text-align: center;
+    font-family: 'Raleway';
+    font-size: 20px;
+    margin: 4% 15%;
+    font-weight: 500;
+}
+
+.address{
+    text-align: center;
+}
+
+.address p.title {
+    font-size: 20px;
+    font-weight: 700;
+    font-family: 'Raleway';
+    margin: 8px 0;
+}
+
+p.bePartText {
+    text-align: center;
+    font-size: 22px;
+    font-family: 'Raleway';
+    margin: 3% 26%;
+}
+
+p.bePartText.emailId{
+    font-size: 22px;
+    font-weight: 600;
+    color: #398086;
+}
+
+.address p{
+    font-size: 18px;
+    font-family: 'Raleway';
+}
+
+.rowAnimText {
+    display: flex;
+    align-items: center;
+    gap: 5%;
+    margin: 3% 15%;
+}
+
+.rowAnimText .imgCol {
+    height: 350px;
+    background-image: url('../Images/contact_us/cat.png');
+    background-repeat: no-repeat;
+    background-size:contain;
+    background-position: center;
+}
+
+.rowAnimText .textCol, .rowAnimText .imgCol {
+    width: 50%;
+    text-align: left;
+}
+
+.contactForm div {
+    background: #F4F4F4;
+    padding:10px 8px;
+    margin: 8px 0;
+}
+
+.contactForm input, 
+.contactForm textarea {
+    border: none;
+    background: transparent;
+    text-indent: 5px;
+    outline: none;
+    font-family: inter;
+    font-size: 14px;
+    width: 100%;
+}
+
+.contactForm div.submit {
+    background-color:#398086;
+    padding: 8px 0;
+    text-align: center;
+    transition: 0.3s all ease-in-out;
+}
+
+.contactForm input[type='submit'] {
+    color: #fff;
+    width: 100%;
+    text-indent: 0;
+    padding: 5px;
+    cursor: pointer;
+}
+
+/* Media Query for Mobile Devices */
+@media (max-width: 480px) {
+    .thanksMsg{
+        font-size: 18px;
+        margin: 10% 7%;
+    }
+
+    .rowAnimText{
+        flex-direction: column-reverse;
+        margin: 3% 7%;
+    }
+
+    .rowAnimText .textCol, .rowAnimText .imgCol{
+        width: 100%;
+    }
+
+    p.bePartText{
+        margin: 3% 7%;
+        font-size: 18px;
+    }
+
+    p.bePartText.emailId{
+        font-size: 20px;
+        margin-bottom: 22px;
+    }
+}
+ 
+/* Media Query for low resolution  Tablets, Ipads */
+@media (min-width: 481px) and (max-width: 767px) {
+    
+}
+ 
+/* Media Query for Tablets Ipads portrait mode */
+@media (min-width: 768px) and (max-width: 1024px){
+    body {
+    }
+}
+ 
+/* Media Query for Laptops and Desktops */
+@media (min-width: 1025px) and (max-width: 1280px){
+    body {
+    }
+}
+ 
+/* Media Query for Large screens */
+@media (min-width: 1281px) {
+    body {
+    }
+}

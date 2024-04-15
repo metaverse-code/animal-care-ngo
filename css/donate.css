@@ -1,0 +1,430 @@
+*{
+    margin: 0;padding: 0;box-sizing: border-box;
+}
+
+.thanksMsg {
+    text-align: center;
+    font-family: 'Raleway';
+    font-size: 20px;
+    margin: 4% 15%;
+    margin-bottom:2%;
+    font-weight: 500;
+}
+
+.thanksMsg.support_work{
+    text-transform: uppercase;
+    font-weight: 600;
+    font-family: inter;
+}
+/* .rowAnimText {
+    display: flex;
+    align-items: center;
+    gap: 5%;
+    margin: 3% 15%;
+}
+
+.rowAnimText .textCol, 
+.rowAnimText .imgCol {
+    width: 50%;
+    text-align: left;
+} */
+
+.bottomAddressDetails {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 15%;
+    gap: 5%;
+}
+
+.inputWrapper input {
+    border: none;
+    border-bottom: 1px solid #ccc;
+    width: 100%;
+    padding: 25px 0 5px 0;
+    padding-left: 0;
+    outline: none;
+    font-size: 16px;
+}
+
+.inputWrapper input[type="checkbox"]{
+    width: min-content;
+}
+.bottomAddressDetails .leftFormCont{
+    width: 50%;
+    font-family: inter;
+}
+
+.inputWrapper.termsCondition{
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+    margin: 10px 0;
+    line-height: 17px;
+}
+
+.inputWrapper.termsCondition label{
+    font-size: 14px;
+    line-height: 14px;
+}
+
+input[type="submit"] {
+    width: 100%;
+    background: #398086;
+    outline: none;
+    border: none;
+    color: #fff;
+    padding: 10px 15px;
+    font-size: 17px;
+    cursor: pointer;
+}
+
+.RytImgCont {
+    height: 350px;
+    background-image: url('../Images/donate_us/foodForAnimals.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 50%;
+}
+
+.DonateForm.textCol{
+    border: 1px solid #398086;
+    height: 348px;
+    display: flex;
+    align-items: center;
+    padding: 25px;
+}
+
+#donateForm .wrapNameEmail{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+
+.DonateForm.textCol form{
+    width: 100%;
+}
+
+.DonateForm.textCol  .amtRow {
+    display: flex;
+    align-items: center;
+    gap: 12%;
+    font-family: 'Inter';
+    font-weight: 500;
+    color: #424141;
+    background: #e6e6e6;
+    padding: 10px 10%;
+    justify-content: center;
+}
+
+.DonateForm.textCol .eachAmt {
+    display: flex;
+    align-items: center;
+    gap: 6%;
+}
+
+.DogprayMsgtxt .DogIcon {
+    background-image: url('../Images/donate_us/dog.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 35px;
+    height: 60px;
+    margin-right: 5px;
+}
+
+.DogprayMsgtxt {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 2.5% auto;
+}
+
+.DogprayMsgtxt .Msgtxt {
+    font-family: 'Inter';
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.DonateForm.textCol .AmtPanRow {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3%;
+}
+
+.DonateForm.textCol .submit {
+    text-align: center;
+    margin-top: 8%;
+    background: #398086;
+    padding: 12px 10px;
+    border-radius: 50px;
+    transition: 0.3s all ease-in-out;
+    cursor: pointer;
+}
+
+.DonateForm.textCol .AmtPanRow input {
+    border: none;
+    outline: none;
+    font-size: 16px;
+    padding: 10px 15px;
+    color: #398086;
+    width: 100%;
+}
+
+.DonateForm.textCol .AmtPanRow .icoInput {
+    border: 1px solid #398086;
+    display: flex;
+    align-items: center;
+    padding-left: 15px;
+    color: #398086;
+    width: 52%;
+}
+
+.DonateForm.textCol .submit:hover {
+    background: #316d72;
+}
+
+.submit input[type="submit"] {
+    background: transparent;
+    border: none;
+    color: #fff;
+    font-family: 'Inter';
+    font-size: 16px;
+    width: 100%;
+    cursor: pointer;
+}
+
+.thanksContent {
+    padding: 3% 25%;
+    font-family: 'raleway';
+    height: 100vh;
+    background-image: url();
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: url("../Images/thanks.png");
+    background-size: cover;
+    color: #fff;
+    text-align: center;
+}
+
+.goTohome{
+    text-decoration: none;
+    color: #fff;
+    background: #333333;
+    padding: 10px 15px;
+    display: inline-block;
+    margin-top: 70px;
+}
+
+.iconTick{
+    margin-bottom: 8%;
+}
+.iconTick i{
+    font-size: 100px;
+}
+
+.thanksContent h2{
+    text-align: center;
+    margin: 3%;
+}
+
+.mainWrapperForm{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 14px;
+    margin: 0 15%;
+    margin-bottom: 3%;
+    font-family: inter;
+}
+
+.mainWrapperForm .formItem{
+    width: 100%;
+    min-height: 300px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: flex-end;
+}
+
+.innerFormDiv.shelterSection{
+    height: 100%;
+}
+
+.innerFormDiv .formBottomsec {
+    padding: 3%;
+}
+
+.innerFormDiv .formBottomsec .Formcontent{
+    font-weight: 500;
+}
+
+.Formcontent .wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.mainWrapperForm .formItem .innerFormDiv{
+    background-color: #F0F0F0;
+}
+
+.mainWrapperForm .formItem .innerFormDiv.allTTL{
+    border: 1px solid #CACACA;
+    font-weight: 700;
+    color: #398086;
+}
+
+form#donateForm {
+    margin-bottom: 50px;
+}
+
+.formBottomsec .Formcontent .item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.formBottomsec .Formcontent .item >label{
+    display: flex;
+    gap: 12px;
+    justify-content: space-between;
+    cursor: pointer;
+    margin: 5px 0;
+}
+
+.formBottomsec .Formcontent .item >label input[type="checkbox"]{
+    width: 18px;
+}
+
+.innerFormDiv.allTTL .ttlContrib {
+    display: flex;
+    margin: 7px 10px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.mainWrapperForm .innerFormDiv .formTopsec {
+    background: #BADFE7;
+    width: 100%;
+    text-align: center;
+    padding: 15px 10%;
+    font-weight: 500;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 60px;
+}
+
+.mainWrapperForm .innerFormDiv .formTopsec span.Title{
+    width: 75%;
+}
+
+#OtrAmt{
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    margin-top: 10px;
+    outline: none;
+    font-size: 16px;
+}
+
+/* Media Query for Mobile Devices */
+@media (max-width: 480px) {
+    .thanksMsg {
+        font-size: 18px;
+        margin: 10% 7%;
+    }
+
+    /* .rowAnimText{
+        flex-direction: column-reverse;
+        margin: 3% 7%;
+    } */
+
+    .rowAnimText .textCol, .rowAnimText .imgCol{
+        width: 100%;
+    }
+
+    .DonateForm.textCol{
+        border: none;
+        padding: 0;
+    }
+
+    .DonateForm.textCol .amtRow{
+        gap: 8%;
+    }
+
+    .thanksContent h2 {
+        text-align: center;
+        font-size: 20px;
+        font-weight: 500;
+        margin: 15% 0 10% 0;
+    }
+
+    .thanksMsg.support_work {
+        font-size: 16px;
+    }
+
+    .mainWrapperForm{
+        grid-template-columns: repeat(1, 1fr);
+        margin: 0 3%;
+    }
+
+    .formBottomsec .Formcontent .item >label{
+        width: 34%;
+        text-align: right;
+        white-space: nowrap;
+    }
+
+    .formBottomsec .Formcontent .item >label input[type="checkbox"]{
+        width: 15px;
+    }
+
+    .mainWrapperForm .innerFormDiv .formTopsec {
+        padding: 15px 5%;
+    }
+
+    .innerFormDiv .formBottomsec .item .purposeFor{
+        text-align: right;
+    }
+
+    .bottomAddressDetails{
+        flex-direction: column;
+        margin: 3%;
+    }
+
+    .bottomAddressDetails .leftFormCont,.RytImgCont {
+        width: 90%;
+        margin-bottom: 8%;
+    }
+
+    .thanksContent{
+        padding: 3% 5%;
+    }
+}
+ 
+
+/* Media Query for low resolution  Tablets, Ipads */
+@media (min-width: 481px) and (max-width: 767px) {
+    
+}
+ 
+/* Media Query for Tablets Ipads portrait mode */
+@media (min-width: 768px) and (max-width: 1024px){
+    
+}
+ 
+/* Media Query for Laptops and Desktops */
+@media (min-width: 1025px) and (max-width: 1280px){
+    body {
+    }
+}
+ 
+/* Media Query for Large screens */
+@media (min-width: 1281px) {
+    body {
+    }
+}

@@ -1,0 +1,57 @@
+.terms_wrapper {
+    margin: 3% 15%;
+    font-family: raleway;
+}
+
+.terms_wrapper p.descr {
+    line-height: 22px;
+    margin: 3% 0;
+}
+
+.terms_wrapper .descr.strong {
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.descr.ponters ul {
+    margin: 3% 8%;
+}
+
+.descr.ponters ul li {
+    padding: 1% 0;
+}
+
+@media (max-width: 480px){
+    .terms_wrapper {
+        margin: 13% 5%;
+    }
+}
+
+ 
+/* Media Query for low resolution  Tablets, Ipads */
+@media (min-width: 481px) and (max-width: 767px) {
+    body {
+        /* background-color: yellow; */
+    }
+}
+ 
+/* Media Query for Tablets Ipads portrait mode */
+@media (min-width: 768px) and (max-width: 1024px){
+    body {
+        /* background-color: blue; */
+    }
+}
+ 
+/* Media Query for Laptops and Desktops */
+@media (min-width: 1025px) and (max-width: 1280px){
+    body {
+        /* background-color: green; */
+    }
+}
+ 
+/* Media Query for Large screens */
+@media (min-width: 1281px) {
+    body {
+        background-color: white;
+    }
+}
